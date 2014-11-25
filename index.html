@@ -7,7 +7,7 @@
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>jerePortal.com</title>
+	<title>jerePortal.com - Jeremias Ceciliano Elizondo</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -18,8 +18,12 @@
 	<!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">    
+	 <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+   <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
 
    <!-- Script
    ================================================== -->
@@ -33,241 +37,508 @@
 
 <body>
 
-	<div id="preloader">      
-      <div id="status">
-         <img src="images/preloader.gif" height="64" width="64" alt="">
-      </div>
-   </div>
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader"></div>    
+    </div><!--preloader end-->
 
-   <!-- Intro Section
+   <!-- Header
    ================================================== -->
-   <section id="intro">
+   <header id="home">
 
-   	<header class="row">	 
+      <nav id="m-nav">
 
-			<div id="logo" >
-				<!--<a href="#" >
-                 <img src="images/logo.png" alt="Zoon">                  
-              </a>	-->				
-			</div>
+         <a class="mobile-btn" href="#m-nav" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-		   <nav id="nav-wrap">
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About Me</a></li>
+            <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <!--<li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
 
-		      <a class="menu-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-			   <a class="menu-btn" href="#" title="Hide navigation">Hide navigation</a>
+      </nav> <!-- end #nav-wrap -->
 
-		      <ul id="nav" class="nav">
-		         <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-		         <li><a class="smoothscroll" href="#about">About</a></li>			         
-			      <!--<li><a class="smoothscroll" href="#location">Location</a></li>-->
-		      </ul> <!-- end #nav -->
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline wow zoomIn">I'm <span>Jeremias Ceciliano</span></h1>
+            <h3 class="wow fadeInUp">I'm a passionate <span>Software Developer</span> that creates modern and responsive sites for <span>Web</span> and <span>Mobile</span>. <br> Let's start reading and learning more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+         </div>
+      </div>
 
-		   </nav> <!-- end #nav-wrap --> 	        
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="fa fa-angle-double-down"></i></a>
+      </p>
 
-   	</header> <!-- Header End -->   	
+      <div class="header-overlay"></div>
 
-   	<div  id="main" class="row">
-
-	   	<div class="twelve columns">
-	   			
-	   		<h1>We are currently working on something awesome. Stay tuned!</h1>
-
-	   		<p></p>
-
-	   		<h5>Time Left Until Launching</h5>
-
-	   		<div id="counter" class="cf">
-	   			<span>134 <em>days</em></span> 
- 					<span>12 <em>hours</em></span>
-					<span>50 <em>minutes</em></span>
- 					<span>33 <em>seconds</em></span> 
-   			</div>					
-
-   			<!-- Begin MailChimp Signup Form -->
-	         <div id="mc_embed_signup">
-	            <form action="http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	                
-	               <!--  
-	               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-	               -->
-	               
-	               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-	               <div style="position: absolute; left: -5000px;"><input type="text" name="b_cdb7b577e41181934ed6a6a44_e65110b38d" value=""></div>
-	               
-
-	               <!-- <div class="clear"> --> <!--<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">--><!-- </div> -->
-	               
-	               
-	          	</form>
-	         </div>
-
-	         <ul class="social">
-	            <li><a target="_blank" href="https://www.facebook.com/jeremias.ceciliano"><i class="fa fa-facebook"></i></a></li>
-	            <li><a target="_blank" href="https://twitter.com/jecel0911"><i class="fa fa-twitter"></i></a></li>
-	            <li><a target="_blank" href="https://plus.google.com/+JeremiasCeciliano/"><i class="fa fa-google-plus"></i></a></li>
-	            <li><a target="_blank" href="cr.linkedin.com/in/jeremiasceciliano"><i class="fa fa-linkedin"></i></a></li>
-	            <!--<li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-	            <li><a target="_blank" href="#"><i class="fa fa-dribbble"></i></a></li> 
-	            <li><a  idtarget="_blank" href="#"><i class="fa fa-skype"></i></a></li> -->
-	            <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-					<div id="SkypeButton_Call_jceciliano0911_1" style="display:inline">
-					  <script type="text/javascript">
-					    Skype.ui({
-					      "name": "chat",
-					      "element": "SkypeButton_Call_jceciliano0911_1",
-					      "participants": ["jceciliano0911"],
-					      "imageColor": "white"
-					    });
-					  </script>
-					</div>
+   <!-- Social Section
+   ================================================== -->
+   <div id="social">
+      <div class="row social-container">
+            <ul class="social">
+               <li><a target="_blank" href="https://www.facebook.com/jeremias.ceciliano"><i class="fa fa-facebook"></i></a></li>
+               <li><a target="_blank" href="https://twitter.com/jecel0911"><i class="fa fa-twitter"></i></a></li>
+               <li><a target="_blank" href="https://plus.google.com/+JeremiasCeciliano/posts"><i class="fa fa-google-plus"></i></a></li>
+               <li><a target="_blank" href="https://www.linkedin.com/in/jeremiasceciliano"><i class="fa fa-linkedin"></i></a></li>
+               <li><a target="_blank" href="https://github.com/jecel0911"><i class="fa fa-github"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
             </ul>
+      </div>
 
-         </div> 
+   </div> <!-- Social End -->
 
-      </div> <!-- main end -->    	
-
-   </section> <!-- end intro section -->
-
+   </header> <!-- Header End -->
 
    <!-- About Section
    ================================================== -->
    <section id="about">
 
-      <div class="row section-header">
+      <div class="row bio-container">
+        <div class="twelve columns bio-inner">
+         <div class="six columns bio-left"> 
+         <div class="pp-container">
 
-      	<div class="twelve columns">	
+            <img class="profile-pic wow zoomIn"  src="images/avatar.jpg" alt="" />
+              <h2>Jeremias Ceciliano</h2>
+              <h3>Software Developer</h3>              
+            </div> <!-- Profile Picture -->
+         </div>
 
-      		<div class="icon-wrap">
-            	<i class="fa fa-group"></i>
-         	</div>
 
-	         <h1>About Me</h1>
+         <div class="six columns main-col wow fadeIn">
+          <div class="arrow-left"></div>
 
-	         <p class="lead">I am a techie , lover of technology. I work in software development in different areas. I am very interested in issues related to Big Data, Business Intelligence, Artificial Intelligence, Real Time applications, among others.
-	         </p>
+            <p>I am a very dynamic person, I like to read and learn about new technologies. I do not like to spend much time on the same technology, I prefer new challenges.
+            It is important to be good at software development, however, it is also important to know the different profiles and methodologies around us to become a complete professional, for example, front-end, back-end, server management, marketing, UX and usability, to name a few.
+            Being a successful professional is extremely important, however, it is also important to create a friendly work environment because people at work are our second family.
+            </p>
+
+          <div class="row">            
+            <div class="six columns download">
+                <p>
+                  <!--<a href="#contact" class="button"><i class="fa fa-paper-plane"></i>Hire Me</a> -->
+                  <!--<a href="statics/CV_JeremiasCecilianoE.pdf" class="button" target="_blank"><i class="fa fa-download"></i>  Download Resume  </a>-->
+                </p>
+            </div> <!-- Download Buttons --> 
+      </div>
+
+         </div> <!-- end .main-col -->
+      </div>
+      </div>
+
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+    <h1 class="section-title wow fadeInDown">Resume</h1>
+      <!-- Education
+      =============================================== -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h2><span>Education</span></h2>
+         </div>
+
+      <div class="nine columns main-col">
+         <div class="education-timeline">
+            <ul class="timeline wow fadeInUp">
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">December 2013 - Present </p>
+                  <h3>Mejorandola</h3>
+                  <p><strong>Professional course of Git and GitHub (in progress)</strong><br>
+                  git history, commits, logs, stash, push, pull, remote repositories, meging tools, ...</p>
+                  <p><strong>Professional course of back-end (in progress)</strong><br>
+                  python: django, django admin,ORM, API rest,class based views, models and views, forms, customizing django admin, middlewares, unit testing, context processors, caching, templates, static files, deployment. Node.js, mongoDB,</p>
+                  <p><strong>Professional course of front-end(2014)</strong><br>
+                  stylus, emmet with sublime text,HTML5 Video tag,semantic web, Mobile first, Retina Design, Webfont y IconFonts,responsive degins, advanced css3 animations,Object Orientes JS, Mustach.js, design patterns in responsive design, responsive design column drop, remote debuggin,MVC with js, jQuery and callbacks,events with jQuery, backbone.js, socket.io, GRUNT.js</p>
+                  <p><strong>Digital strategy and marketing (2014)</strong><br>
+                  SEO, google searchs, keywords research, link building, webmaster tools, SEO in twitter and youtube, google analitycs,remarketing,inboud marketing, outbound marketing,google adWords,email marketing, personal branding</p>
+                  <p><strong>Web Design (2014)</strong><br>
+                  HTML5, typography,box model,responsive design,iconfonts, animations, js DOM,crossbrowsing,jQuery, JSON, local and session storage, ajax,consuming API's,normalize.</p>
+                  <p><strong>Graphic design of interfaces and UX(2014)</strong><br>
+                  stetics and perseption,wireframes and grid system, balance and proportion,volume and depth,typography, responsive design, fundation, bootstrap, UI vrs UX,how to UX,mobile first,mockups, web and mobile prototypes,information architecture,iterative linear model,mobile design,design patterns,emotional design,gamification,illustrator.</p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">February 2013 - Present</p>
+                  <h3>UNED (Universidad estatal a distancia)</h3>
+                  <h4>Intermediate level in english </h4>
+                  <p><strong>English Course</strong><br>
+                     Level 4B completed, Certified by the Common European Framework of Reference.</p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">February 2008 - July 2013</p>
+                  <h3>Tecnologico de Costa Rica</h3>
+                  <h4>Bachelor of Computer engineering</h4>
+                  <p><strong>Computer Engineering</strong><br>
+                     Completed graduation from University of Engineering with the major of Computer Engineering.</p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">February 2005 - December 2007</p>
+                  <h3>Professional Technical College San Isidro P.Z</h3>
+                  <h4>Middle Technician in Accounting</h4>
+                  <p><strong>Accounting with emphasis on costs</strong><br>
+                     Completed studies with knowledge of financial accounting and cost </p>
+                </div>
+              </li>
+            </ul>  
+         </div> <!-- Education Timeline End --> 
+      </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ========================================= -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h2><span>Employment</span></h2>
+         </div>
+
+         <div class="nine columns main-col">
+
+         <div class="work-timeline">
+            <ul class="timeline">
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">July 2013 - Present</p>
+                  <h3>Soluciones Integrales S.A</h3>
+                  <h4>Software Developer</h4>
+                  <p>Support and development of new functionalities in the ERP SIF,integration with Grupo Nacion sales model, optimizing interfaces with grupo nacion(massiveness), analysis and development of complex financial process (cash flow, billing). Investigation and development of the new development models. (ColdFusion, html,css,js, Sysbase, MS SQL Server)</p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">March 2012 - July 2013</p>
+                  <h3>Advansys S.A. and Grupo Babel S.A</h3>
+                  <h4>Software Developer</h4>
+                  <p> Development and implementation of digital control system for chemicals in
+                      Costa Rica (Java with JSF, PrimeFaces, PostgreSQL),development and support. System that manages the customer documentation (Java, JSF,
+                      RichFaces, Oracle 10g),Support and guarantee on security framework(JSP, Servelets, JS, Oracle),Development of an ERP(C#, Silverlight, SQL Server). </p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">September 2007 - February 2008</p>
+                  <h3>Coopealianza R.L</h3>
+                  <h4>InternShip</h4>
+                  <p>Supervised practice (emphasis on cost accounting)</p>
+                </div>
+              </li>
+            </ul>  
+         </div> <!-- Work Timeline End --> 
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      =============================================== -->
+      <!--
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h2><span>Skills</span></h2>
+         </div>
+
+         <div class="nine columns main-col">
+            <p>In this section i will show you the main 
+            </p>
+
+        <div class="bars">
+
+           <ul class="skills">
+            <li><span class="bar-expand photoshop wow fadeInLeft"></span><em>Java</em></li>
+            <li><span class="bar-expand illustrator wow fadeInLeft"></span><em>Illustrator</em></li>
+            <li><span class="bar-expand wordpress wow fadeInLeft"></span><em>Wordpress</em></li>
+            <li><span class="bar-expand css wow fadeInLeft"></span><em>CSS</em></li>
+            <li><span class="bar-expand html5 wow fadeInLeft"></span><em>HTML5</em></li>
+            <li><span class="bar-expand jquery wow fadeInLeft"></span><em>jQuery</em></li>
+          </ul>
+
+        </div>
+
+      </div> 
+
+      </div> -->
+
+
+      <!-- Awards
+      =============================================== -->
+      <!--<div class="row awards">
+
+         <div class="three columns header-col">
+            <h2><span>Recognition</span></h2>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+            </p>
+
+				<div class="award-list">
+
+				   <ul>
+             <li class="wow fadeIn">
+                <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+                <h3>App Development Contest</h3>
+                <h5>Winner</h5>
+                <h4>Dhaka, Bangladesh</h4>
+             </li>
+             <li class="wow fadeIn">
+                <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+                <h3>Best Front-End Developers Award</h3>
+                <h5>Top Front-End Developer</h5>
+                <h4>San Fransisco, USA</h4>
+             </li>
+             <li class="wow fadeIn">
+                <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+                <h3>Awesome UI/UX Designers Award</h3>
+                <h5>Best UI/UX Designer</h5>
+                <h4>New York, USA</h4>
+             </li>
+					   <li class="wow fadeIn">
+                <span><i class="fa fa-microphone fa-5x pull-left fa-fw"></i></span>
+                <h3>UX Conference</h3>
+                <h5>Speaker</h5>
+                <h4>Dhaka, Bangladesh</h4>
+             </li>
+
+					</ul>
+
+				</div>
+
+			</div> 
+
+      </div> -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1 class="section-title wow fadeInDown">Some of My Works</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow fadeIn">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/ImageOrganizer340x340.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Image Organizer</h5>
+                              <p>Node.js with MongoDB</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      =============================================== -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/ImageOrganizer640x480.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Image Organizer app</h4>
+			      <p>You can oganize different images with a title. query filtering with ajax in a MongoDB database</p>
+               <span class="categories"><i class="fa fa-tag"></i>Node.js, MongoDB</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/jecel0911/ImageOrganizer" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <!--<section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+            <h1 class="wow fadeInLeft">
+              <span><i class="fa fa-paper-plane fa-5x pull-left fa-fw"></i></span>
+            </h1>
+         </div>
+
+         <div class="seven columns">            
+            <h2 class="wow zoomIn">Hire me for your awesome project</h2>
+            <p>I am available for Freelance projects that depends on your project value. Hire me and get your project done!</p>
 
          </div>
 
-      </div> <!-- end section-header -->             	
+         <div class="three columns action wow fadeIn">
 
-      <!--
-      <div class="row section-content">
-				
-			<div class="six columns">
-		      <h3>Our Process.</h3>
+            <a href="#contact" class="button">Hire me Now</a>
 
-		      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-		      eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-		      </p>
-	      </div>
+         </div>
 
-	      <div class="six columns">
-		      <h3>Our Approach.</h3>
+      </div>
 
-		      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-		      eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-		      </p>
-	      </div>            
-
-      </div>--> <!-- end section-content -->  
-      <!--
-      <div class="row section-content">
-				
-			<div class="six columns">
-		      <h3>Our Vision.</h3>
-
-		      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-		      eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-		      </p>
-	      </div>
-
-	      <div class="six columns">
-		      <h3>Our Objective.</h3>
-
-		      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-		      eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-		      </p>
-	      </div>            
-
-      </div> --><!-- end section-content -->       
-      <!--
-      <div id="call-to-action">	       
-
-		   <div class="row section-ads">
-
-		      <div class="twelve columns">		         		
-
-			      <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>
-
-			      <p class="lead">
-			      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-					Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
-						
-					</p>
-
-					<div class="action">
-			         <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-	         	</div>
-
-			   </div>
-
-		   </div> 
-
-	   </div> -->
-
-   </section> <!-- About Section End-->    
+   </section> -->
 
 
-   <!-- Location Section
+   <!-- Testimonials Section
    ================================================== -->
-   <!--
-	<section id="location">
+   <!--<section id="testimonials">
+      <div class="text-container">
+         <div class="row">
+          <div class="twelve columns flex-container">
+            <h1 class="section-title wow fadeInDown">Client Testimonials</h1>
 
-		<div class="contacts">		
-			
-			<div class="row contact-details">		           		         
+            <div id="testimonial-slides" class="owl-carousel">
+              <div> 
+                <blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                 <cite> Jonathan Doe</cite>
+              </blockquote> 
+              </div> 
 
-			   <div class="columns">
+              <div> 
+                <blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                 <cite> Jane Doe</cite>
+              </blockquote> 
+              </div> 
 
-				   <h3><i class="fa fa-home"></i>Address.</h3>
-				   <p>5th Avenue, Fort Bonifacio<br>
-						Taguig, Metro Manila <br>
-						Philippines
-					</p>
+              <div> 
+                <blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                 <cite> John Doe</cite>
+              </blockquote> 
+              </div> 
 
-			   </div> 
+            </div> 
 
-			   <div class="columns">
+          </div> 
 
-				   <h3><i class="fa fa-phone"></i>Phone Numbers.</h3>
-				   <p>Phone: (000) 777 1515<br>
-				   	Mobile: (000) 777 0100<br>
-				   	Fax: (000) 777 0101
-				   </p>
+         </div> 
 
-			   </div>	 
+       </div>  
 
-			   <div class="columns end">
+   </section> -->
 
-				   <h3><i class="fa fa-envelope"></i>Emails.</h3>
-				   <p>johndoe@zoon.com<br>
-				   	janedoe@zoon.com <br>
-				   	juandelacruz@zoon.com
-				   </p>
 
-			   </div>          	
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
 
-		 	</div> 
+      <div class="row section-head">
+          <div class="twelve columns">
+              <h1 class="section-title wow fadeInDown">Get In Touch</h1>
+              <!--
+              <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, voluptatem quia voluptas sit aspernatur aut odit aut fugit. </p> -->
+          </div>
+      </div> 
 
-		</div>
+      <!--
+      <div class="row">
+          <div class="five columns">
+             <div class="form-container wow fadeIn">
+               
 
-	   <div id="map">
+               <form action="#" method="post" id="contactForm" name="contactForm">
+      				  	<fieldset>
 
-	   	 <p class="map-error">Something went wrong... Unable to load map... Please try to enable javascript</p>   
+                        <div>
+      						   <input type="text" placeholder="Name" value="" size="35" id="contactName" name="contactName">
+                        </div>
 
-	   </div> 
+                        <div>
+      						   <input type="text" placeholder="Email" value="" size="35" id="contactEmail" name="contactEmail">
+                        </div>
 
-	</section> -->
+                        <div>
+      						   <input type="text" placeholder="Subject" value="" size="35" id="contactSubject" name="contactSubject">
+                        </div>
+
+                        <div>
+                           <textarea cols="5" rows="5" placeholder="Message" id="contactMessage" name="contactMessage"></textarea>
+                        </div>
+
+                        <div>
+                         
+                         <div id="message-warning"> Error boy</div>
+                           <button class="submit">Submit</button>
+                           <span id="image-loader">
+                              <img alt="" src="images/loader.gif">
+                           </span>
+                        </div>
+
+      					 </fieldset>
+				        </form>
+                        
+                         <div id="message-success">
+                                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+                         </div>
+            </div>  
+
+          </div>
+
+      <div class="seven columns">
+       <h1><span>Find me on Google Map</span></h1> 
+        
+         <div id="map"></div>
+        
+      </div>
+
+
+      </div>
+
+
+
+   </section> -->
+
 
    <!-- footer
    ================================================== -->
@@ -275,27 +546,45 @@
 
       <div class="row">
 
-         <div class="twelve columns">            
+         <div class="twelve columns">
 
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 Zoon</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>          
+            <ul class="social-links">
+               <li><a target="_blank" href="https://www.facebook.com/jeremias.ceciliano"><i class="fa fa-facebook"></i></a></li>
+               <li><a target="_blank" href="https://twitter.com/jecel0911"><i class="fa fa-twitter"></i></a></li>
+               <li><a target="_blank" href="https://plus.google.com/+JeremiasCeciliano/posts"><i class="fa fa-google-plus"></i></a></li>
+               <li><a target="_blank" href="https://www.linkedin.com/in/jeremiasceciliano"><i class="fa fa-linkedin"></i></a></li>
+               <li><a target="_blank" href="https://github.com/jecel0911"><i class="fa fa-github"></i></a></li>
             </ul>
 
-         </div>          
+            <ul class="copyright">
+               <li>Jeremias Ceciliano Elizondo &copy; Copyright 2014, All Rights Reserved</li>
+               
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="fa fa-chevron-up"></i></a></div>
 
       </div>
 
-      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#intro"><i class="icon-up-open"></i></a></div>
-
-   </footer> <!-- Footer End-->   
+   </footer> <!-- Footer End-->
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
+<<<<<<< HEAD
+   <script src="js/jquery-2.1.1.min.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false"></script>
+   <script src="js/gmaps.js"></script>
+   <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/jquery.nicescroll.min.js"></script>
+   <script src="js/script.js"></script>
+
+=======
 	<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
    <!--<script src="js/gmaps.js"></script>-->
    <script src="js/waypoints.js"></script>
@@ -309,6 +598,7 @@
    		$('#SkypeButton_Call_jceciliano0911_1_paraElement').css('margin','0');
 		$('#SkypeButton_Call_jceciliano0911_1_paraElement').css('display','inline');
    </script>
+>>>>>>> 2ddc01433155ebc11a0a93731882bdbb65b84507
 </body>
 
 </html>
