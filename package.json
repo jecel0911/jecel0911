@@ -1,0 +1,21 @@
+{
+  "name": "welcomesite",
+  "version": "1.0.0",
+  "description": "jerePortal.com site ",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://jceciliano@jereportal.com:7990/scm/jer/welcomesite.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "jceciliano",
+  "license": "ISC"
+}
