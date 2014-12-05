@@ -34,22 +34,29 @@ module.exports = function(grunt) {
                                     }
                                   }
                                 },
-      //Clean Unused CSS styles
+      
+      /*//Clean Unused CSS styles
       uncss: {
         dist: {
           files: {
-            'dist/css/main.min.css': ['index.html' /*, 'app/about.html'*/]
+            'dist/css/main.min.css': ['index.html' , 'app/about.html']
           }
         }
-      },
+      },  */
       //Minified css
       cssmin: {
         combine: {
           files: {
-            'dist/css/main.min.css': [ 'dist/css/main.min.css'/*'css/normalize.css'
+            'dist/css/main.min.css': [ 'css/default.css'
                                      //,'css/preLoadingPage.css'
-                                     ,'css/base.css'
-                                     ,'css/responsive.css'*/]
+                                     ,'css/style.css'
+                                     ,'css/responsive.css'
+                                     ,'css/animate.css'
+                                     ,'css/magnific-popup.css'
+                                     ,'assets/owl-carousel/owl.carousel.css'
+                                     ,'assets/owl-carousel/owl.theme.css'
+                                     ,'css/main.min.css'
+                                     ]
                                    }
                                  }
                                },
@@ -57,7 +64,7 @@ module.exports = function(grunt) {
       copy: {
         main: {
           expand: true,
-          src: ['static/**','assets/**','images/**'], 
+          src: ['static/**','assets/**','images/**'/*,'css/**'*/], 
           dest: 'dist/'
         }
       }
@@ -72,7 +79,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
 	//registering tasks
-	grunt.registerTask('default', ['htmlmin','uglify','uncss','cssmin','copy']);
+	grunt.registerTask('default', ['htmlmin','uglify',/*'uncss'*/'cssmin','copy']);
 
 
 };
