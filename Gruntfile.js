@@ -34,6 +34,7 @@ module.exports = function(grunt) {
         combine: {
           files: {
             'dist/css/main.min.css': ['css/normalize.css'
+                                     //,'css/preLoadingPage.css'
                                      ,'css/base.css'
                                      ,'css/responsive.css']
           }
