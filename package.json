@@ -12,6 +12,8 @@
     "grunt-uncss": "^0.3.8"
   },
   "scripts": {
+    "build": "grunt",
+    "deploy": "bash publish.sh dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
